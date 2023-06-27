@@ -69,9 +69,157 @@
 	</blockquote>
 	<br>
 
-	<canvas>
+	<canvas> -> wrong use
 		1.which help us to draw the graphics on website 
 		2.canvas is used with javascript
+
+		If browser does not support canvas the message here will be shown.
 	</canvas>
+
+	<!-- 	1.caption tag defines the table -->
+	<caption>
+		<table>
+	  <caption>Monthly savings</caption>
+	  <tr>
+	    <th>Month</th>
+	    <th>Savings</th>
+	  </tr>
+	  <tr>
+	    <td>January</td>
+	    <td>$100</td>
+	  </tr>
+		</table>
+	</caption>
+
+	<!-- cite tag defines the title of a creative work -->
+	<p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+
+	<!-- The <col> tag specifies column properties for each column within a <colgroup> element.
+	The <col> tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row. -->
+
+	<table>
+  <colgroup>
+    <col span="2" style="background-color:red">
+    <col style="background-color:yellow">
+  </colgroup>
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
+</table>
+
+<!-- The <data> tag is used to add a machine-readable translation of a given content. -->
+This element provides both a machine-readable value for data processors, and a human-readable value for rendering in a browser.
+
+<ul>
+  <li><data value="21053">Cherry Tomato</data></li>
+  <li><data value="21054">Beef Tomato</data></li>
+  <li><data value="21055">Snack Tomato</data></li>
+</ul>
+<br>
+<!-- The <datalist> tag specifies a list of pre-defined options for an <input> element. -->
+	<label for="browser">Choose your browser from the list:</label>
+<input list="browsers" name="browser" id="browser">
+
+<datalist id="browsers">
+  <option value="Edge">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+<br>
+
+<!-- The <dd> tag is used to describe a term/name in a description list. -->
+
+	<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+
+<!-- The <del> tag defines text that has been deleted from a document. Browsers will usually strike a line through deleted text. -->
+
+	<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+<!-- The <details> tag specifies additional details that the user can open and close on demand. -->
+
+<details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+<br>
+
+<!-- The <dfn> tag stands for the "definition element", and it specifies a term that is going to be defined within the content. -->
+
+	<p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+<br>
+
+<!-- The <dialog> tag defines a dialog box or subwindow. -->
+	<dialog open>This is an open dialog window</dialog>
+
+<!-- The <dir> tag was used in HTML 4 to list directory titles. -->
+
+<!-- The <dl> tag defines a description list. -->
+	<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+
+<!-- The <em> tag is used to define emphasized text. The content inside is typically displayed in italic. -->
+	<p>You <em>have</em> to hurry up!</p>
+
+	<p>We <em>cannot</em> live like this.</p>
+
+<!-- The <fieldset> tag is used to group related elements in a form.
+The <fieldset> tag draws a box around the related elements. -->
+	<form action="/action_page.php">
+  <fieldset>
+    <legend>Personalia:</legend>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+
+<!-- The <figcaption> tag defines a caption for a <figure> element.
+The <figcaption> element can be placed as the first or last child of the <figure> element. -->
+	<figure>
+  <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
+  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+</figure>
+
+<!-- The <footer> tag defines a footer for a document or section. -->
+	<footer>
+  <p>Author: Hege Refsnes</p>
+  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
+
+<!-- The <iframe> tag specifies an inline frame. -->
+<iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe>
+
+<!-- The <kbd> tag is used to define keyboard input. The content inside is displayed in the browser's default monospace font. -->
+	<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+
+	<p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+
+
+
+
 </body>
 </html>
